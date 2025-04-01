@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           ),
          ),
         body: Padding(
-          padding: EdgeInsets.all(25),
+          padding: EdgeInsets.fromLTRB(5, 25, 0, 0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                ]
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(0, 35, 0, 0),
+                padding: const EdgeInsets.fromLTRB(0, 35, 35, 0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
